@@ -17,13 +17,13 @@
 // |  TAB |  B  |  F  |  L  |  K  |  Q  |   |  P  |  G   |  O  |  U  |  .  | BSPC |
 // | CTRL |  N  |  S  |  H  |  T  |  M  |   |  Y  |  C   |  A  |  E  |  I  |      |
 // | SHFT |  X  |  V  |  J  |  D  |  Z  |   |  '  |  W   |  ;  |  /  |  ,  | ESC  |
-//                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+//                    | LWR |  R  | SPC |   | ENT | BSPC | RSE |
 
                         bindings = <
    &kp TAB   &kp B &kp F &kp L &kp K &kp Q   &kp P &kp G  &kp O &kp U &kp DOT &kp BSPC
    &kp LCTRL &kp N &kp S &kp H &kp T &kp M   &kp Y &kp C  &kp A &kp E &kp I &kp RCTRL
    &kp LSHFT &kp X &kp V &kp J &kp D &kp Z   &kp SQT &kp W &kp SEMI &kp FSLH &kp COMMA &kp ESC
-                  &mo 1 &kp R &kp SPACE   &kp RET &mo 2 &kp RALT
+                  &mo 1 &kp R &kp SPACE   &kp RET &mt LGUI BSPC &mo 2
                         >;
                 };
                 lower_layer {
