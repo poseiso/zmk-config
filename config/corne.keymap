@@ -54,7 +54,7 @@
 // |      |  B  |  F  |  L  |  K  |  Q  |   |  P  |  G  |  O  |  U  |  .  |      |
 // |      |  N  |  S  |  H  |  T  |  M  |   |  Y  |  C  |  A  |  E  |  I  |      |
 // |      |  X  |  V  |  J  |  D  |  Z  |   |  '  |  W  |  ;  |  /  |  ,  |      |
-//                    | ESC | BSP | SPC |   | ENT | TAB | ESC |
+//                    | TAB |  R  | SPC |   | ENT | BSC | ESC |
 // -----------------------------------------------------------------------------------------
 // |      |     |     |     |     |     |   |     |     |     |     |     |      |
 // |      | WIN | ALT | CTL | SHF |     |   |     | SHF | CTL | ALT | WIN |      |
@@ -65,7 +65,7 @@
    &none &kp B         &kp F            &kp L            &kp K             &kp Q        &kp P     &kp G             &kp O            &kp U        &kp DOT       &none
    &none &weak LMETA N &weak LALT S     &shifthr LCTRL H &shifthr LSHIFT T &kp M        &kp Y     &shifthr RSHIFT C &shifthr RCTRL A &weak RALT E &weak RMETA I &none
    &none &kp X         &kp V            &kp J            &kp D             &kp Z        &kp SQT   &kp W             &kp SEMI         &kp FSLH     &kp COMMA     &none
-                                        &kp ESC          &lt 1 BACKSPACE   &lt 2 SPACE  &lt 2 RET &lt 1 TAB         &kp ESC
+                                        &kp TAB          &lt 1 R           &lt 2 SPACE  &lt 2 RET &lt 1 BACKSPACE   &kp ESC
                         >;
                 };
                 lower_layer {
