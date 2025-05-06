@@ -91,7 +91,7 @@
                         bindings = <
    &none &kp F1       &kp F2      &kp F3       &kp F4        &trans          &kp LS(H)   &kp PG_DN   &kp PG_UP &kp LS(L) &trans &none
    &none &hm LMETA F5 &hm LALT F6 &hm LCTRL F7 &hm LSHIFT F8 &hm LC(V) LC(C) &kp LEFT    &kp DOWN    &kp UP    &kp RIGHT &trans &none
-   &none &kp F9       &kp F10     &F11         &kp F12       &kp PSCRN       &kp LA(H)   &kp LA(TAB) &none     &kp LA(L) &trans &none
+   &none &kp F9       &kp F10     &kp F11         &kp F12       &kp PSCRN       &kp LA(H)   &kp LA(TAB) &none     &kp LA(L) &trans &none
                                   &bt BT_CLR   &bt BT_NXT    &trans          &trans      &trans      &trans
                         >;
                 };
