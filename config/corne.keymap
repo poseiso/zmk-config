@@ -54,7 +54,7 @@
 // |      |  B  |  F  |  L  |  K  |  Q  |   |  P  |  G  |  O  |  U  |  .  |      |
 // |      |  N  |  S  |  H  |  T  |  M  |   |  Y  |  C  |  A  |  E  |  I  |      |
 // |      |  X  |  V  |  J  |  D  |  Z  |   |  '  |  W  |  ;  |  /  |  ,  |      |
-//                    | TAB |  R  | SPC |   | ENT | BSC | ESC |
+//                    | TAB |  R  | ENT |   | SPC | BSC | ESC |
 // -----------------------------------------------------------------------------------------
 // |      |     |     |     |     |     |   |     |     |     |     |     |      |
 // |      | WIN | ALT | CTL | SHF |     |   |     | SHF | CTL | ALT | WIN |      |
@@ -65,7 +65,7 @@
    &none &kp B         &kp F            &kp L            &kp K             &kp Q        &kp P     &kp G             &kp O            &kp U        &kp DOT       &none
    &none &weak LMETA N &weak LALT S     &shifthr LCTRL H &shifthr LSHIFT T &kp M        &kp Y     &shifthr RSHIFT C &shifthr RCTRL A &weak RALT E &weak RMETA I &none
    &none &kp X         &kp V            &kp J            &kp D             &kp Z        &kp SQT   &kp W             &kp SEMI         &kp FSLH     &kp COMMA     &none
-                                        &kp TAB          &lt 1 R           &lt 2 SPACE  &lt 2 RET &lt 1 BACKSPACE   &kp ESC
+                                        &kp TAB          &lt 1 R           &lt 2 RET  &lt 2 SPACE &lt 1 BACKSPACE   &kp ESC
                         >;
                 };
                 lower_layer {
@@ -73,12 +73,12 @@
 // |      |  !  |  @  |  {  |  }  |  |  |   |  +  |  7  |  8  |  9  |  *  |      |
 // |      |  #  |  $  |  (  |  )  |  `  |   |  -  |  4  |  5  |  6  |  :  |      |
 // |      |  %  |  ^  |  [  |  ]  |  ~  |   |  =  |  1  |  2  |  3  |  \  |      |
-//                    | ESC | BSP | SPC |   | ENT | TAB |  0  |
+//                    | ESC | BSP | ENT |   | SPC | TAB |  0  |
                         bindings = <
    &none &kp EXCL       &kp AT          &kp LBRC       &kp RBRC        &kp PIPE  &kp PLUS  &kp N7  &kp N8 &kp N9             &kp ASTERISK  &none
    &none &hm LMETA HASH &hm LALT DOLLAR &hm LCTRL LPAR &hm LSHIFT RPAR &kp GRAVE &kp MINUS &kp N4  &kp N5 &kp N6             &kp COLON     &none
    &none &kp PERCENT    &kp CARET       &kp LBKT       &kp RBKT        &kp TILDE &kp EQUAL &kp N1  &kp N2 &shifthr PERIOD N3 &kp BACKSLASH &none
-                                        &kp ESC        &kp BACKSPACE   &kp SPACE &kp RET   &kp TAB &kp N0
+                                        &kp ESC        &kp BACKSPACE   &kp RET &kp SPACE   &kp TAB &kp N0
                         >;
                 };
 
