@@ -51,21 +51,21 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// |      |  B  |  F  |  L  |  K  |  Q  |   |  P  |  G  |  O  |  U  |  .  |      |
-// |      |  N  |  S  |  H  |  T  |  M  |   |  Y  |  C  |  A  |  E  |  I  |      |
-// |      |  X  |  V  |  J  |  D  |  Z  |   |  '  |  W  |  ;  |  /  |  ,  |      |
-//                    | TAB |  R  | ENT |   | SPC | BSC | ESC |
+// |      |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U  |  I  |  O  |  P  |      |
+// |      |  A  |  S  |  D  |  F  |  G  |   |  H  |  J  |  K  |  L  |  ;  |      |
+// |      |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M  |  ,  |  .  |  /  |      |
+//                    | TAB | LWR | ENT |   | SPC | RSE | BSC |
 // -----------------------------------------------------------------------------------------
 // |      |     |     |     |     |     |   |     |     |     |     |     |      |
 // |      | WIN | ALT | CTL | SHF |     |   |     | SHF | CTL | ALT | WIN |      |
 // |      |     |     |     |     |     |   |     |     |     |     |     |      |
-//                    |     | LWR | RSE |   | RSE | LWR |     |
+//                    |     |     |     |   |     |     |     |
 
                         bindings = <
-   &none &kp B         &kp F            &kp L            &kp K             &kp Q        &kp P     &kp G             &kp O            &kp U        &kp DOT       &none
-   &none &weak LMETA N &weak LALT S     &shifthr LCTRL H &shifthr LSHIFT T &kp M        &kp Y     &shifthr RSHIFT C &shifthr RCTRL A &weak RALT E &weak RMETA I &none
-   &none &kp X         &kp V            &kp J            &kp D             &kp Z        &kp SQT   &kp W             &kp SEMI         &kp FSLH     &kp COMMA     &none
-                                        &kp TAB          &lt 1 R           &lt 2 RET  &lt 2 SPACE &lt 1 BACKSPACE   &kp ESC
+   &none &kp Q         &kp W            &kp E            &kp R             &kp T        &kp Y     &kp U             &kp I            &kp O        &kp P         &none
+   &none &kp A         &kp S            &kp D            &shifthr LSHIFT F &kp G        &kp H     &shifthr RSHIFT J &shifthr RCTRL K &weak RALT L &weak RMETA SEMI &none
+   &none &kp Z         &kp X            &kp C             &kp V             &kp B        &kp N     &kp M             &kp COMMA        &kp DOT      &kp FSLH      &none
+                                        &kp TAB          &lt 1 R           &kp RET      &lt 2 SPACE &lt 1 BACKSPACE   &kp ESC
                         >;
                 };
                 lower_layer {
