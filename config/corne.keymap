@@ -51,9 +51,9 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// |      |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U  |  I  |  O  |  P  |      |
-// |      |  A  |  S  |  D  |  F  |  G  |   |  H  |  J  |  K  |  L  |  ;  |      |
-// |      |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M  |  ,  |  .  |  /  |      |
+// |  ALT |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U  |  I  |  O  |  P  |      |
+// | SHFT |  A  |  S  |  D  |  F  |  G  |   |  H  |  J  |  K  |  L  |  ;  |      |
+// | CTRL |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M  |  ,  |  .  |  /  |      |
 //                    | TAB | LWR | ENT |   | SPC | RSE | BSC |
 // -----------------------------------------------------------------------------------------
 // |      |     |     |     |     |     |   |     |     |     |     |     |      |
@@ -62,9 +62,9 @@
 //                    |     |     |     |   |     |     |     |
 
                         bindings = <
-   &none &kp Q         &kp W            &kp E            &kp R             &kp T        &kp Y     &kp U             &kp I            &kp O        &kp P         &kp ESC
-   &none &kp A         &kp S            &kp D            &shifthr LSHIFT F &kp G        &kp H     &shifthr RSHIFT J &shifthr RCTRL K &weak RALT L &weak RMETA SEMI &none
-   &none &kp Z         &kp X            &kp C             &kp V             &kp B        &kp N     &kp M             &kp COMMA        &kp DOT      &kp FSLH      &none
+   &kp LALT &kp Q         &kp W            &kp E            &kp R             &kp T        &kp Y     &kp U             &kp I            &kp O        &kp P         &kp ESC
+   &kp LSHIFT &kp A         &kp S            &kp D            &shifthr LSHIFT F &kp G        &kp H     &shifthr RSHIFT J &shifthr RCTRL K &weak RALT L &weak RMETA SEMI &none
+   &kp LCTRL &kp Z         &kp X            &kp C             &kp V             &kp B        &kp N     &kp M             &kp COMMA        &kp DOT      &kp FSLH      &none
                                         &kp TAB          &lt 1 R           &kp RET      &lt 2 SPACE &lt 1 BACKSPACE   &none
                         >;
                 };
